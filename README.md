@@ -10,6 +10,9 @@
 <h2>What is class mate radar?</h2>
 <p>It is a web-app to get proximity of classmates.It tells you the distance of your classmates from you taking in reference their last active position on website</p>
 
+## Implementation
+The app has been made by use of JDBC ,servlets,JSP,HTML & basic CSS 
+ 
 ## Built by -Arpit Srivastava <a href="https://github.com/fuzious">@Fuzious</a> Follow me on github for many more exciting projects like these
 
   
