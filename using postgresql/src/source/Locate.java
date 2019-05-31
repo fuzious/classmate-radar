@@ -23,6 +23,7 @@ public class Locate extends HttpServlet {
             Statement stm=con.createStatement();
             HttpSession HS=request.getSession();
             ob.database((String)HS.getAttribute("username"),(String)HS.getAttribute("password"),stm,request,response,HS);
+            con.close();
         } catch (Exception e) {
             e.printStackTrace();
         }

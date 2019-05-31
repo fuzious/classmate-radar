@@ -22,6 +22,7 @@ public class servlet2 extends HttpServlet {
             HttpSession HS=request.getSession();
             String details=request.getParameter("name")+" , "+request.getParameter("batch");
             ob.database(request.getParameter("setUname"),request.getParameter("setPassword"),details,stm,request,response,HS);
+            con.close();
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -41,6 +42,7 @@ public class servlet2 extends HttpServlet {
             RD.forward(request,response);
         }
         stm.close();
+
     }
     private static Connection getConnection() throws URISyntaxException, SQLException {
         URI dbUri = new URI(System.getenv("DATABASE_URL"));

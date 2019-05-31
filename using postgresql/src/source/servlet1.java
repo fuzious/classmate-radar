@@ -29,6 +29,7 @@ public class servlet1 extends HttpServlet{
             Connection con=getConnection();
             Statement stm=con.createStatement();
             ob.database(uname,password,sess,out,stm,request,response);
+            con.close();
         } catch (Exception e) {
             e.printStackTrace(out);
         }

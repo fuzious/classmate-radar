@@ -12,7 +12,7 @@
   </head>
 
   <body onload="verify_geolocation_capability()" style="background: aqua">
-  <a href="index.jsp"><img src="radar.JPG" alt="homepage" style="display: block;margin-left: auto;margin-right: auto;width: 300px;height: 300px"></a>
+  <a href="index.jsp"><img src="radar.JPG" alt="homepage" style="display: block;margin-left: auto;margin-right: auto;width: 300px;height: 300px;"></a>
   <h1 style="color: darkorange;text-align: center">Classmate Radar</h1>
       <form action="servlet1" method="post" style="float: left;width: 50%;">
           <p style="font-size: 30px;">Existing user? Sign in here</p>
