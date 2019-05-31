@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="login2:war">
+    <output-path>$USER_HOME$/Desktop</output-path>
+    <root id="archive" name="login2_war.war">
+      <element id="artifact" artifact-name="login2:war exploded" />
+    </root>
+  </artifact>
+</component>
